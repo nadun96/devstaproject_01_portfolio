@@ -1,0 +1,62 @@
+.services-section {
+    background-color: #00c853;
+    padding: 4rem 2rem;
+}
+
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon-container {
+    width: 80px;
+    height: 80px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem;
+}
+
+.service-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.service-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.service-link {
+    display: inline-block;
+    background-color: #00c853;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.service-link:hover {
+    background-color: #00a43e;
+}
